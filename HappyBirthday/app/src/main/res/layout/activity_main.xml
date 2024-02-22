@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".com.example.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/birthdayImageView"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
+
+    <TextView
+android:id="@+id/birthdayMessageTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="20sp"
+android:textColor="@android:color/black"
+android:layout_below="@id/birthdayImageView"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="10dp"
+android:text="" />
+
+
+    <Button
+        android:id="@+id/wishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthdayMessageTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="ඔබට සුභ උපන්දිනයක් වේවා" />
+
+    <Button
+        android:id="@+id/specialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="තෑග්ග ලබාගන්න"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/wishButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="text" />
+
+    </RelativeLayout>
